@@ -36,7 +36,11 @@ Este proyecto implementa **Principal Component Analysis (PCA)** y **Sistemas de 
 
 ## Pasos a seguir para un PCA
 
+- [Implementacion PCA](PCA.md)
 
+## Pasos a seguir para un sistema de recomendación
+
+- [Sistemas de recomendacion](sistemas_recomendacion.md)
 
 ---
 
