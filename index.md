@@ -1,6 +1,5 @@
-# PCA y sistemas de recomendación
-
-**Tutorial dedicado a explicar los algoritmos que conforman el Principal Component Analysis y los sistemas de recomendación**
+# PCA y Sistemas de Recomendación
+**Tutorial dedicado a explicar los algoritmos que conforman el Principal Component Analysis y los Sistemas de Recomendación**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
@@ -9,65 +8,44 @@
 
 ## Descripción
 
-Este proyecto utiliza modelos de LDA y arboles de decisión para predecir la **temperatura de equilibrio** de exoplanetas y 
-determinar cuáles podrían ser potencialmente 
-habitables según criterios térmicos (250-300 K, compatible con agua líquida).
+Este proyecto implementa **Principal Component Analysis (PCA)** y **Sistemas de Recomendación** para reducir la dimensionalidad de datos de usuarios y productos, y generar recomendaciones personalizadas basadas en similitud latente.
 
-**Dataset**: NASA Exoplanet Archive (PSCompPars)
-**Objetivo**: realizar una comparación de modelos LDA y Arboles de decisión para poder clasificar planetas
+**Dataset**: MovieLens / Dataset de interacciones usuario-producto  
+**Objetivo**: Aplicar PCA para compresión de características y construir un sistema de recomendación basado en filtrado colaborativo y descomposición matricial.
 
-Recursos
+### Recursos
 
-| Dataset |[NASA_exoplanets (ya imputada)](dataset_final_exoplanetas.csv) |
+| Dataset | [ratings.csv](ratings.csv) |
 |---|---|
-| **Notebook** | [.ipynb](A2_2_LDA_Arboles.ipynb) |
+| **Notebook** | [PCA_Recomendacion.ipynb](PCA_Recomendacion.ipynb) |
 
 ---
-
 
 ## Metodología
 
-- Definición de la variable de salida con dos o tres clases.
-
-- Análisis del balance entre clases.
-
-- División del dataset en entrenamiento y prueba, conservando la proporción de clases.
-
-- Construcción del modelo LDA, seleccionando variables acordes a sus supuestos.
-
-- Visualización e interpretación de las funciones discriminantes y la separación entre clases.
-
-- Construcción del modelo de árbol de decisión con selección y justificación de parámetros.
-
-- Aplicación de poda mediante el parámetro α para controlar la complejidad.
-
-- Evaluación de ambos modelos con métricas de desempeño.
-
-- Comparación e interpretación crítica de resultados cuantitativos y geométricos.
+- Exploración y preprocesamiento de la matriz de interacciones usuario-ítem.
+- Análisis de varianza explicada y selección del número óptimo de componentes principales.
+- Aplicación de PCA para reducción de dimensionalidad y visualización del espacio latente.
+- Interpretación geométrica de los componentes principales y su relación con patrones de preferencia.
+- Construcción del sistema de recomendación mediante filtrado colaborativo (usuario-usuario e ítem-ítem).
+- Implementación de SVD (Descomposición en Valores Singulares) como extensión de PCA para recomendación.
+- Evaluación del sistema con métricas de desempeño (RMSE, precisión, recall).
+- Comparación e interpretación crítica entre enfoques basados en PCA y SVD.
 
 ---
 
-## Procedimiento
+## Pasos a seguir para un PCA
 
 
-[Particion de datos](particion.md)
 
-[LDA](LDA.md)
-
-[Arboles](arboles.md)
-
+---
 
 ## Referencias
 
-- 
+-
 
 ---
 
-
-
-**By** 
-
-*Juan Angel Candelaria Rodriguez*
-
-Universidad de Monterrey | Inteligencia Artificial  
-
+**By**  
+*Juan Angel Candelaria Rodriguez*  
+Universidad de Monterrey | Inteligencia Artificial
