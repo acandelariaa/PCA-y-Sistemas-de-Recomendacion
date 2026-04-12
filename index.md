@@ -15,9 +15,12 @@ Este proyecto implementa **Principal Component Analysis (PCA)** y **Sistemas de 
 
 ### Recursos
 
-| Dataset | [ratings.csv](ratings.csv) |
+|Archivos||
 |---|---|
-| **Notebook** | [PCA_Recomendacion.ipynb](PCA_Recomendacion.ipynb) |
+| Dataset 1 | [wine.csv](ratings.csv) |
+| Dataset 2 | [breast_cancer.csv](ratings.csv) |
+| **Notebook** | [PCA.ipynb](PCA.ipynb) |
+| **Notebook** | [sistemas_recomendacion.ipynb](PCA_Recomendacion.ipynb) |
 
 ---
 
@@ -46,7 +49,7 @@ Este proyecto implementa **Principal Component Analysis (PCA)** y **Sistemas de 
 
 ## Referencias
 
--
+- Anthropic. (2025). Claude (claude-sonnet-4-6) [Large language model]. https://www.anthropic.com
 
 ---
 
