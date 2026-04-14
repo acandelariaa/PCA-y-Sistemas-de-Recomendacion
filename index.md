@@ -24,19 +24,6 @@ Este proyecto implementa **Principal Component Analysis (PCA)** y **Sistemas de 
 
 ---
 
-## Metodología
-
-- Exploración y preprocesamiento de la matriz de interacciones usuario-ítem.
-- Análisis de varianza explicada y selección del número óptimo de componentes principales.
-- Aplicación de PCA para reducción de dimensionalidad y visualización del espacio latente.
-- Interpretación geométrica de los componentes principales y su relación con patrones de preferencia.
-- Construcción del sistema de recomendación mediante filtrado colaborativo (usuario-usuario e ítem-ítem).
-- Implementación de SVD (Descomposición en Valores Singulares) como extensión de PCA para recomendación.
-- Evaluación del sistema con métricas de desempeño (RMSE, precisión, recall).
-- Comparación e interpretación crítica entre enfoques basados en PCA y SVD.
-
----
-
 ## Pasos a seguir para un PCA
 
 - [Implementacion PCA](PCA.md)
