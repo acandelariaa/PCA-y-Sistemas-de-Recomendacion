@@ -72,4 +72,4 @@ Como es de esperarse, son muchisimos pares los que se pueden llegar a hacer, con
 Esto fue con el fin de entender el comportamiento de los datos, para darnos pequeñas pistas de ciertas variables que podriamos usar para clasificar los tipos de tumores.
 
 ---
-[Siguiente pagina](split_estandarizacion)
+*Siguiente paso → [3-Split / estandarizacion](3-separacion_estandarizacion.md)*
