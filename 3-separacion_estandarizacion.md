@@ -96,4 +96,4 @@ Standard deviation of X_train_scaled (should be close to 1):
 Listo, ya que nuestros datos estan estandarizados, ahora podemos realizar algun tipo de modelo para clasificar los tipos de tumores segun este conjunto de datos.
 
 ---
-[Siguiente pagina](RL_metricas.md)
+*Siguiente paso → [4 - Regresion Logistica](4-RL_metricas.md)*
