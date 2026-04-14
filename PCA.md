@@ -2,6 +2,7 @@
 
 ---
 Para realizar un PCA (Principal Component Analisys), utilizaremos un dataset muy conocido (Breast Cancer), donde intentaremos clasificar un tumor como maligno / benigno.
+
 ---
 
 1 - [Procesamiento y exploracion](preprocesamiento.md)  
