@@ -69,4 +69,4 @@ perfectamente ambas clases, alcanzando máxima sensibilidad sin generar falsos p
 
 
 ---
-[Siguiente pagina]()
+*Siguiente paso → [5 - Ajuste de hiperparametros](6-ajuste-hiperparametros.md)*
