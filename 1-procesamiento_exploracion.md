@@ -39,4 +39,4 @@ Con esto confirmamos que el dataset cuenta con **569 observaciones** y **32 vari
 
 ---
 
-[Siguiente pagina](distribucion_variables)
+*Siguiente paso → [2-Distribucion de variables](2-distribucion_variables.md)*
