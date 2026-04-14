@@ -19,6 +19,7 @@ Este proyecto implementa **Principal Component Analysis (PCA)** y **Sistemas de 
 |---|---|
 | Dataset 1 | [wine.csv](ratings.csv) |
 | Dataset 2 | [breast_cancer.csv](ratings.csv) |
+| Dataset 3 | [interfaz_usuario.csv](ratings.csv) |
 | **Notebook** | [PCA.ipynb](PCA.ipynb) |
 | **Notebook** | [sistemas_recomendacion.ipynb](PCA_Recomendacion.ipynb) |
 
