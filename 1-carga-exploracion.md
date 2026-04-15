@@ -28,20 +28,6 @@ print("Matriz Usuario-Ítem (primeras 5 filas y columnas):")
 display(user_item_matrix.iloc[:5, :5])
 ```
 
-
-Matriz Usuario-Ítem (primeras 5 filas y columnas):
-
-| item_id | 1 | 2 | 3 | 4 | 5 |
-|---------|-----|-----|-----|-----|-----|
-| **user_id** | | | | | |
-| 1 | 5.0 | 3.0 | 4.0 | 3.0 | 3.0 |
-| 2 | 4.0 | NaN | NaN | NaN | NaN |
-| 3 | NaN | NaN | NaN | NaN | NaN |
-| 4 | NaN | NaN | NaN | NaN | NaN |
-| 5 | 4.0 | 3.0 | NaN | NaN | NaN |
-
-
-
 `u.data` tiene cuatro columnas: `user_id`, `item_id`, `rating` y `timestamp`. De `u.item` nos interesa principalmente `item_id` y `movie_title` para identificar las películas por nombre al momento de recomendar.
 
 ---
